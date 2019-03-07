@@ -1,3 +1,5 @@
+package ru.mail.arseniy;
+
 public class People {
     int age;
     String name;
@@ -9,7 +11,7 @@ public class People {
 
     @Override
     public String toString() {
-        return "People{" +
+        return "ru.mail.arseniy.People{" +
                 "age=" + age +
                 ", name='" + name + '\'' +
                 '}';
