@@ -1,6 +1,11 @@
 public class People {
-    int age = 5;
-    String name = "wefuyg";
+    int age;
+    String name;
+
+    public People(int age, String name) {
+        this.age = age;
+        this.name = name;
+    }
 
     @Override
     public String toString() {
